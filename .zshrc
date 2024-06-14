@@ -44,6 +44,7 @@ chpwd() { pwd && lsd }
 
 # starship
 eval "$(starship init zsh)"
+export STARSHIP_CONFIG="$HOME/dotfiles/starship.toml"
 
 # volta
 export VOLTA_HOME="$HOME/.volta"
