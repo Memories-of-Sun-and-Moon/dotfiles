@@ -1,5 +1,7 @@
 scan_timeout = 10
 
+right_format = """$time"""
+
 [character]
 error_symbol = "[✗](bold red)"
 success_symbol = "[❯](bold green)"
@@ -34,3 +36,9 @@ deleted = '🗑'
 style = 'bold dimmed green'
 symbol = '👩‍💻 '
 disabled = false
+
+[time]
+disabled = false
+format = '🕙[\[ $time \]]($style) '
+time_format = '%T'
+utc_time_offset = '+9'
