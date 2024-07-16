@@ -50,3 +50,9 @@ export STARSHIP_CONFIG="$HOME/dotfiles/starship.toml"
 export VOLTA_HOME="$HOME/.volta"
 export PATH="$VOLTA_HOME/bin:$PATH"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+################################################################################
+# for competitive programming
+################################################################################
+
+alias B='function _b() { python3 ./cp_templates/bundle.py "$1.cpp" && oj-bundle "z.cpp" | grep -v "^#line " | iconv -t utf16 | clip.exe && rm "z.cpp"; }; _b'
