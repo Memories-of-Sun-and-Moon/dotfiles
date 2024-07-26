@@ -56,3 +56,11 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 ################################################################################
 
 alias B='function _b() { python3 ./cp_templates/bundle.py "$1.cpp" && oj-bundle "z.cpp" | grep -v "^#line " | iconv -t utf16 | clip.exe && rm "z.cpp"; }; _b'
+
+################################################################################
+# for job
+################################################################################
+
+alias REVIEW='function _review() {cp _review feedback.md; }; _review'
+alias TEST='function _test() {cp _test feedback.md; }; _test'
+alias EXPORT='function _export() {cat feedback.md | iconv -t utf16 | clip.exe; }; _export'
