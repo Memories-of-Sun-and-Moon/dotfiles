@@ -9,3 +9,4 @@ syntax on
 set showcmd
 set ruler
 set cursorline
+set belloff=all

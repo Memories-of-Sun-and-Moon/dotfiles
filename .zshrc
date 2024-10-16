@@ -31,6 +31,9 @@ alias gst='git status'
 alias l='lsd -l'
 alias la='lsd -a'
 
+# nvim
+export PATH="$PATH:/opt/nvim/"
+
 # python
 alias python='python3'
 alias pip='python3 -m pip'
