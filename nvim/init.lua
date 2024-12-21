@@ -39,6 +39,13 @@ require("lazy").setup({
 			"rcarriga/nvim-notify",
 		}
 	},
+	{
+		"lewis6991/gitsigns.nvim",
+		event = { "BufReadPre" },
+		config = function()
+			require("extensions.gitsigns")
+		end,
+	},
 })
 		
 require('lualine').setup {
