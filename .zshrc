@@ -3,8 +3,8 @@
 ################################################################################
 
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=100000
+SAVEHIST=100000
 setopt extended_history
 setopt hist_ignore_dups
 bindkey -e
