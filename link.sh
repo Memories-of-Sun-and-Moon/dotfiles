@@ -8,6 +8,8 @@ script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 files_and_paths=(
   ".vimrc:$HOME/.vimrc"
   ".zshrc:$HOME/.zshrc"
+  "nvim/init.lua:$HOME/.config/nvim/init.lua"
+  "nvim/lua:$HOME/.config/nvim/lua"
 )
 
 # 先頭の ~ を $HOME に置き換える関数
