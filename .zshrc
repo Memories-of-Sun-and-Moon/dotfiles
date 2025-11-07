@@ -70,3 +70,5 @@ alias DACL='function _d() { g++ "$1.cpp" -g -std=c++2a -Wall -Wextra -Wshadow -W
 alias REVIEW='function _review() {cp _review feedback.md; }; _review'
 alias TEST='function _test() {cp _test feedback.md; }; _test'
 alias EXPORT='function _export() {cat feedback.md | iconv -t utf16 | tail -c +3 | clip.exe; }; _export'
+
+. "$HOME/.local/bin/env"
