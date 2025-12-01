@@ -1,6 +1,6 @@
 -- https://wezterm.org/config/files.html#configuration-files
 
-require 'japanese'
+-- require 'japanese'
 
 local wezterm = require 'wezterm'
 
