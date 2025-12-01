@@ -28,8 +28,14 @@ config.hide_mouse_cursor_when_typing = true
 
 
 -- font
-config.font = wezterm.font("Cascadia Mono")
+config.font = wezterm.font("CaskaydiaMono Nerd Font")
 config.font_size = 14.0
+
+-- タイトルバーを消して、枠だけ残す
+config.window_decorations="RESIZE"
+
+-- タブが 1 つだけならタブバーを隠す
+config.hide_tab_bar_if_only_one_tab=true
 
 -- keybinds
 local act = wezterm.action
