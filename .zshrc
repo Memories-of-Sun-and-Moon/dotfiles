@@ -42,6 +42,9 @@ alias pip='python3 -m pip'
 # utilities
 ################################################################################
 
+# rust
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # show directory infomations after `cd`
 chpwd() { pwd && lsd }
 
