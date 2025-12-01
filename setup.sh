@@ -1,3 +1,4 @@
+# ubuntu os 用
 #!/bin/bash
 set -euo pipefail  # エラーで止める
 
